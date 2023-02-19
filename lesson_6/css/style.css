@@ -1,0 +1,149 @@
+@import url(reset.css);
+@import url(fonts.css);
+[class*="__container"] {
+    max-width: 816px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.article__container p{
+margin-bottom: 15px;
+}
+.article__text-box{
+ margin-bottom: 100px; 
+ line-height: 1.8;  
+}
+.article__text-box span{
+    margin-right:50px;   
+   }
+.article__title {
+font-weight: 700;
+font-size: 25px;
+line-height: 1.6;
+max-width: 605px;
+}
+.text_line {
+
+max-width: 1028px;
+height: 0;
+border: 1px solid #E5E5E5;
+margin-bottom: 16px;
+}
+.images {
+    padding-left:15px;
+    padding-right: 15px;
+    margin: 0 auto 100px;
+    max-width: 1270px;
+    font-size: 0;
+}
+.image {
+    font-size: 0;
+}
+.first {
+    margin-right: 30px;
+}
+.image_01{
+    width: 100%;
+    margin-bottom: 100px;
+}
+h1{
+    margin-bottom: 15px;
+}
+h2{
+    margin-bottom: 100px;
+}
+.upper{
+font-size: 12px;
+}
+center p{
+    margin-bottom: 30px;
+}
+.article{
+    padding-top: 80px;
+}
+.info__item{
+display: inline-block;
+width: 181px;
+}
+.info__title{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.info__text{
+    font-weight: 300;
+}
+.tags__tag{
+    padding: 8px 13px;
+    display: inline-block;
+    margin-right: 15px;
+    border: 1px solid #C4C4C4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 8px;
+    border-radius: 3px;
+}
+.article__info{
+    margin-bottom: 60px;
+}
+.span
+{
+    display: inline-block;
+    text-align: right;
+}
+.article__tags{
+    margin-bottom: 100px;
+}
+.navigation{
+    background-color: #F0F1F2;
+    height: 100px;
+}
+.contacts{
+    height: 325px;
+    background-color: #212529;
+}
+.contacts__box{
+    max-width: 1240px;
+    padding: 100px;
+    margin: 0 auto;
+}
+.contacts__line{
+    height: 0;
+    border: 1px solid #E5E5E5;
+    width: 100%;
+    opacity: 20%;
+    margin: 40px 0;
+}
+.contacts__adress{
+    text-align: right;
+}
+.navigation__button-next{
+text-transform: uppercase;
+font-size: 30px;
+margin: 0 auto;
+}
+.navigation__button-next:hover{
+    background-color: rgb(173, 176, 176);
+    color: white;
+    border: 2px dotted ;
+    }
+.navigation__button-practice{
+text-transform: uppercase;
+font-size: 30px;
+margin-right: 20px;
+}
+[class*="__button"]{
+    text-transform: uppercase;
+    font-size: 30px;
+    display: inline-block; 
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 0 auto;
+    
+}
+.contacts__box span
+{
+    color: #F8F9FA80;
+    opacity: 50%;
+    margin-right: 100px;
+}
